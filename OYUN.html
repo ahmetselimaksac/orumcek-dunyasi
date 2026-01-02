@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Vur Oyunu</title>
+
+  <style>
+    body {
+      background-color: black;
+      color: lime;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: red;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🎮 MİNİ BAĞIŞ OYUNU 🎮</h1>
+
+  <div>
+    Skor: <span id="skor">0</span>
+  </div>
+
+  <br>
+
+  <button onclick="artir()">🕷️</button>
+
+  <script>
+    function artir(){
+      document.getElementById("skor").innerText++;
+    }
+  </script>
+
+</body>
+</html>
